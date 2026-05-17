@@ -1,0 +1,57 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#1a4d2e" stroke="#d4a437" stroke-width="8"/>
+  
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#d4a437" stroke-width="2"/>
+  
+  <!-- Mountains -->
+  <polygon points="60,110 85,70 95,85 110,60 125,80 140,110" fill="#8B7355" opacity="0.8"/>
+  
+  <!-- Sun -->
+  <circle cx="105" cy="65" r="12" fill="#FDB927"/>
+  
+  <!-- Trees (left) -->
+  <g fill="#2d5a3d">
+    <polygon points="70,90 65,100 75,100"/>
+    <polygon points="78,95 73,105 83,105"/>
+  </g>
+  
+  <!-- Trees (right) -->
+  <g fill="#2d5a3d">
+    <polygon points="130,90 125,100 135,100"/>
+    <polygon points="138,95 133,105 143,105"/>
+  </g>
+  
+  <!-- Tiger head (simplified) -->
+  <circle cx="95" cy="125" r="15" fill="#FF9500"/>
+  <circle cx="92" cy="122" r="3" fill="black"/>
+  <polygon points="98,128 102,125 100,132" fill="#FF9500"/>
+  
+  <!-- Jeep (simplified) -->
+  <g fill="#DAA520" stroke="#333" stroke-width="0.5">
+    <rect x="115" y="120" width="18" height="10" rx="1"/>
+    <circle cx="118" cy="132" r="2" fill="#333"/>
+    <circle cx="130" cy="132" r="2" fill="#333"/>
+  </g>
+  
+  <!-- Text (Corbett Cab Riders) -->
+  <path id="topCurve" d="M 50,100 A 50,50 0 0,1 150,100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d4a437" letter-spacing="1">
+    <textPath href="#topCurve" startOffset="50%" text-anchor="middle">
+      Corbett Cab Riders
+    </textPath>
+  </text>
+  
+  <!-- Text (Taxi & Tour Services) -->
+  <path id="bottomCurve" d="M 150,100 A 50,50 0 0,1 50,100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d4a437" letter-spacing="1">
+    <textPath href="#bottomCurve" startOffset="50%" text-anchor="middle">
+      TAXI &amp; TOUR SERVICES
+    </textPath>
+  </text>
+  
+  <!-- Corner circles -->
+  <circle cx="30" cy="100" r="2" fill="#d4a437" opacity="0.6"/>
+  <circle cx="170" cy="100" r="2" fill="#d4a437" opacity="0.6"/>
+</svg>
